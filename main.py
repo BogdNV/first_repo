@@ -1,16 +1,15 @@
-# This is a sample Python script.
+#1st program
+print(9**0.5*5)
 
-# Press Ctrl+F5 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+#2st program
+print(9.99 > 9.98 and 1000 != 1000.1)
 
+#3st program
+print(2*2+2)
+print(2*(2+2))
+print(2*2+2 == 2*(2+2))
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press F9 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#4th program
+s = '123.456'
+s_f = float(s)
+print(int(s_f*10) % 10)
